@@ -1,0 +1,18 @@
+ls    : list all files and directories in the Linux terminal.
+ls -t : lists all the files in the folder which is sorted by time which means that newest file comes first.
+ls -1 : list all files and folders in your current directory with each name on a new line.
+ls -lh : { -l: lists files in long format (with permissions, owner, size, and date) and -h: shows the file size in a human-readable format like KB, MB, or GB instead of just raw bytes}
+ls -ld : to see the details about a directory itself (and not the files inside it) -d tells the system to show info about the directory itself, not what’s inside it.
+ls -lt : lists all files and folders sorted by the last modified time
+ls -ltr : To sort the file names in the last modification time in reverse order 
+         -l: shows detailed info like size, permissions, and modification time | -t: sorts files by last modified time (newest first)  | -r: reverses the order (oldest first)
+ls -a : shows all files, including the hidden ones like .bashrc, .git, or .config, along with the current . and parent .. directories.
+ls -A : To show the hidden files, but not the ‘.’ (current directory) and ‘..’ (parent directory).
+ls -R : To show all the files recursively
+ls -i : To see the inode number of a file or folder.  This number keeps track of important details about the file like its location on disk, size, permissions, and timestamps but not its name.
+ls -q : Sometimes, files or folders may have irregular or non-printable characters which is called control characters in their names basically they can mess up your terminal display or be confusing to read.
+ls -n ~/kv : It shows the UID (User ID) and GID (Group ID) of the files and folders instead of just showing usernames and group names
+ls -F : The ls -F command in Linux helps you quickly identify file types by adding special symbols at the end of each file name. { / – directory, nothing – normal file, @ – link file,  * – Executable file }
+ls --color=auto : file type by the color in which it gets displayed is another kind in classification of file. In the below output directories get displayed in blue, soft links get displayed in green, and ordinary files get displayed in default color.
+ls -l --time-style=long-iso  : This flag lets you customize the format of the time/date shown next to each file or folder.
+
