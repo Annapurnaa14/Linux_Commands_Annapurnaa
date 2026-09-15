@@ -1,0 +1,12 @@
+pwd : output will be the absolute path of your current location in the file system.
+/bin/pwd : displays the absolute path of the current working directory directly from the system’s executable, ensuring accurate results even in complex environments.
+
+The $PWD Environment variable :  dynamic variable that stores the path of the current working directory. It holds the same value as 'pwd -L' – representing the symbolic path.
+Flags For Specific behavior in `pwd` command in Linux.
+The "-L" flag resolves symbolic links and prints the path of the target directory.
+The default behavior of the shell built-in "pwd" is equivalent to using "pwd -L".
+Mention the "-P" flag, which displays the actual path without resolving symbolic links.
+The default behavior of the binary "/bin/pwd" is the same as using "pwd -P"
+
+pwd -L: Prints the symbolic path. 
+pwd -P: Prints the actual path.
