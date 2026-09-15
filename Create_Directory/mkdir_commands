@@ -1,0 +1,2 @@
+mkdir <dname> : to create a directory named dname
+mkdir d1 d2 d3 : to create multiple directories at the same levels
